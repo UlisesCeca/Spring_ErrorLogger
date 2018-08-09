@@ -10,7 +10,7 @@
 
 
 	<name>errorloggerserver</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Server used to save Errors Logs</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
