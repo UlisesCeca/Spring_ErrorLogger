@@ -5,11 +5,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
 
-@Document(collection = "ErrorsLogServer")
+@Document(collection = "ErrorsLogs")
 @Data
 public class ErrorLog {
-    private int applicationID;
-    private String applicationName;
+    private App app;
     private String trace;
     private String causedByUser;
     private Date datetime;
