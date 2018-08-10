@@ -1,7 +1,6 @@
 package com.example.ulises.errorloggerserver;
 
 import com.example.ulises.errorloggerserver.rest.endpoints.ErrorLogEndpoint;
-import com.example.ulises.errorloggerserver.rest.exceptionsmappers.InsertExceptionMapper;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
@@ -20,7 +19,6 @@ public class ErrorLoggerServerApplication {
 	public ResourceConfig jerseyConfig() {
 		final ResourceConfig resourceConfig = new ResourceConfig();
 		resourceConfig.register(ErrorLogEndpoint.class);
-		resourceConfig.register(InsertExceptionMapper.class);
 		return resourceConfig;
 	}
 
