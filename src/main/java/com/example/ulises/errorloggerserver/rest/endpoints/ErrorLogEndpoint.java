@@ -21,13 +21,13 @@ public class ErrorLogEndpoint {
     @Autowired
     private ModelMapper modelMapper;
     @Autowired
-    private ErrorLogService userService;
+    private ErrorLogService errorLogService;
 
     @POST
     @Path("/new")
     @Produces(MediaType.APPLICATION_JSON)
     public Response hello(@Valid @NotNull(message = "testDTO must not be null") final ErrorLogDTO errorLogDTO) {
-        this.userService.insert(this.modelMapper.map(errorLogDTO, ErrorLog.class));
+        this.errorLogService.insert(this.modelMapper.map(errorLogDTO, ErrorLog.class));
         return Response.noContent().build();
     }
 
