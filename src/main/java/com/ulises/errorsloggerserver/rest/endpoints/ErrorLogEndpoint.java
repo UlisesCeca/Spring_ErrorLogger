@@ -1,11 +1,11 @@
-package com.example.ulises.errorloggerserver.rest.endpoints;
+package com.ulises.errorsloggerserver.rest.endpoints;
 
-import com.example.ulises.errorloggerserver.constants.Constants;
-import com.example.ulises.errorloggerserver.rest.dto.ErrorLogDTO;
-import com.example.ulises.errorloggerserver.rest.dto.ResponseOKDTO;
-import com.example.ulises.errorloggerserver.services.entities.App;
-import com.example.ulises.errorloggerserver.services.entities.ErrorLog;
-import com.example.ulises.errorloggerserver.services.ErrorLogService;
+import com.ulises.errorsloggerserver.constants.Constants;
+import com.ulises.errorsloggerserver.rest.dto.ErrorLogDTO;
+import com.ulises.errorsloggerserver.rest.dto.ResponseOKDTO;
+import com.ulises.errorsloggerserver.services.entities.App;
+import com.ulises.errorsloggerserver.services.entities.ErrorLog;
+import com.ulises.errorsloggerserver.services.ErrorLogService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

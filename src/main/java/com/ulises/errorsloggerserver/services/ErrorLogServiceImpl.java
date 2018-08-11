@@ -1,9 +1,9 @@
-package com.example.ulises.errorloggerserver.services;
+package com.ulises.errorsloggerserver.services;
 
-import com.example.ulises.errorloggerserver.services.entities.App;
-import com.example.ulises.errorloggerserver.services.entities.ErrorLog;
-import com.example.ulises.errorloggerserver.services.exceptions.NoErrorsFoundsForAppException;
-import com.example.ulises.errorloggerserver.services.repositories.ErrorLogRepository;
+import com.ulises.errorsloggerserver.services.entities.App;
+import com.ulises.errorsloggerserver.services.entities.ErrorLog;
+import com.ulises.errorsloggerserver.services.exceptions.NoErrorsFoundsForAppException;
+import com.ulises.errorsloggerserver.services.repositories.ErrorLogRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 

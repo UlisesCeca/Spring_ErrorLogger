@@ -1,4 +1,4 @@
-package com.example.ulises.errorloggerserver.services.entities;
+package com.ulises.errorsloggerserver.services.entities;
 
 import lombok.Builder;
 import lombok.Data;

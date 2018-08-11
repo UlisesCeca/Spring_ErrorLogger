@@ -1,7 +1,7 @@
-package com.example.ulises.errorloggerserver.services.repositories;
+package com.ulises.errorsloggerserver.services.repositories;
 
-import com.example.ulises.errorloggerserver.services.entities.App;
-import com.example.ulises.errorloggerserver.services.entities.ErrorLog;
+import com.ulises.errorsloggerserver.services.entities.App;
+import com.ulises.errorsloggerserver.services.entities.ErrorLog;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

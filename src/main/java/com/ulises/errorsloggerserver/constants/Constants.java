@@ -1,4 +1,4 @@
-package com.example.ulises.errorloggerserver.constants;
+package com.ulises.errorsloggerserver.constants;
 
 public class Constants {
     public static final String RESPONSE_ERROR_NO_ERRORS_FOUND = "No Errors found for this App.";

@@ -1,10 +1,7 @@
-package com.example.ulises.errorloggerserver.rest.dto;
+package com.ulises.errorsloggerserver.rest.dto;
 
-import com.example.ulises.errorloggerserver.services.entities.App;
+import com.ulises.errorsloggerserver.services.entities.App;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
 
 import javax.validation.constraints.NotNull;
 import java.util.Date;

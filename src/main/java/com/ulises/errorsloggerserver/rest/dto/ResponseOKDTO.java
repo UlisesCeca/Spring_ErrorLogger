@@ -1,9 +1,9 @@
-package com.example.ulises.errorloggerserver.rest.dto;
+package com.ulises.errorsloggerserver.rest.dto;
 
 import lombok.Builder;
 import lombok.Data;
 
 @Builder @Data
-public class ErrorDTO {
+public class ResponseOKDTO {
     private final String message;
 }

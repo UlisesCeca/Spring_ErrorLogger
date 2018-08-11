@@ -1,9 +1,9 @@
-package com.example.ulises.errorloggerserver;
+package com.ulises.errorsloggerserver;
 
-import com.example.ulises.errorloggerserver.rest.endpoints.ErrorLogEndpoint;
-import com.example.ulises.errorloggerserver.rest.exceptionsmappers.InternalServerErrorMapper;
-import com.example.ulises.errorloggerserver.rest.exceptionsmappers.NoErrorsFoundsForAppExceptionMapper;
-import com.example.ulises.errorloggerserver.rest.exceptionsmappers.NotFoundMapper;
+import com.ulises.errorsloggerserver.rest.endpoints.ErrorLogEndpoint;
+import com.ulises.errorsloggerserver.rest.exceptionsmappers.InternalServerErrorMapper;
+import com.ulises.errorsloggerserver.rest.exceptionsmappers.NoErrorsFoundsForAppExceptionMapper;
+import com.ulises.errorsloggerserver.rest.exceptionsmappers.NotFoundMapper;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;

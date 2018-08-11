@@ -1,12 +1,12 @@
-package com.example.ulises.errorloggerserver.rest.exceptionsmappers;
+package com.ulises.errorsloggerserver.rest.exceptionsmappers;
 
-import com.example.ulises.errorloggerserver.rest.dto.ErrorDTO;
-import com.example.ulises.errorloggerserver.services.exceptions.NoErrorsFoundsForAppException;
+import com.ulises.errorsloggerserver.rest.dto.ErrorDTO;
+import com.ulises.errorsloggerserver.services.exceptions.NoErrorsFoundsForAppException;
 
 import javax.ws.rs.core.Response;
 import javax.ws.rs.ext.ExceptionMapper;
 
-import static com.example.ulises.errorloggerserver.constants.Constants.RESPONSE_ERROR_NO_ERRORS_FOUND;
+import static com.ulises.errorsloggerserver.constants.Constants.RESPONSE_ERROR_NO_ERRORS_FOUND;
 
 public class NoErrorsFoundsForAppExceptionMapper implements ExceptionMapper<NoErrorsFoundsForAppException> {
     @Override

@@ -1,4 +1,4 @@
-package com.example.ulises.errorloggerserver.configuration;
+package com.ulises.errorsloggerserver.configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

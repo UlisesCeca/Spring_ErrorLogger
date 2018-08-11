@@ -1,4 +1,4 @@
-package com.example.ulises.errorloggerserver.services.exceptions;
+package com.ulises.errorsloggerserver.services.exceptions;
 
 public class NoErrorsFoundsForAppException extends RuntimeException {
 }
