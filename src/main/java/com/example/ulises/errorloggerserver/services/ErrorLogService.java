@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface ErrorLogService {
     void insert(final ErrorLog error);
-    List<ErrorLog> getErrorByApp(App app);
+    List<ErrorLog> getErrorByApp(final App app);
 }

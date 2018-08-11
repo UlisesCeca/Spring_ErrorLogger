@@ -5,5 +5,5 @@ import lombok.Data;
 
 @Builder @Data
 public class ErrorDTO {
-    private String message;
+    private final String message;
 }

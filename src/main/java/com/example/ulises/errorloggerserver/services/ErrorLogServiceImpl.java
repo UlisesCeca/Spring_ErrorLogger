@@ -21,7 +21,7 @@ public class ErrorLogServiceImpl implements ErrorLogService {
     }
 
     @Override
-    public List<ErrorLog> getErrorByApp(App app) {
+    public List<ErrorLog> getErrorByApp(final App app) {
         List<ErrorLog> errorLogs = this.errorLogRepository.findByApp(app);
         if(errorLogs.size() == 0)
             throw new NoErrorsFoundsForAppException();
